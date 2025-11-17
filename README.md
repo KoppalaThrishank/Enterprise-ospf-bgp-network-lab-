@@ -1,8 +1,7 @@
 # Enterprise-ospf-bgp-network-lab-
 
-In this lab, we started with the basic concept that we usually learn in the beginning of networking:
-keeping all PCs inside a single broadcast domain (VLAN 1) makes communication simple.
-In that scenario, all devices stay in the same subnet, and a Layer-3 router can forward traffic without requiring multiple VLANs.
+In the beginning of networking, we usually learn by keeping all devices in a single broadcast domain (VLAN 1).
+In this scenario, all devices stay in the same subnet, and a Layer-3 router can forward traffic without requiring multiple VLANs.
 At this level, VLANs are not necessary — everything operates in one flat network.
 
 However, real-world enterprise networks never rely on a single VLAN.
